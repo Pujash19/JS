@@ -67,12 +67,12 @@ const ans= findSum(2,3,displayRes);
 
 //simple calculator
 
-calculatorOperation =(a,b, opr)=>{
+ calculatorOperation =(a,b, opr)=>{
 const res= opr(a,b);
 return res;
 }
 
-function sum(a,b){
+ function sum(a,b){
     return a+b;
 }
 function sub(a,b){
@@ -87,12 +87,8 @@ function div(a,b){
 }
 setTimeout(()=>console.log(calculatorOperation(8,4, sum)), 2000);
 
-function greet(){
-    console.log("Hi");
-}
-setTimeout(greet, 3000);
+ function greet(){
+     console.log("Hi");
+ }
+ setTimeout(greet, 3000);
 
-
-for(let i=30;i>0;i++){
-setTimeout(()=>{console.log(i)}, 1000);
-}
