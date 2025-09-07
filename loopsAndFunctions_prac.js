@@ -34,7 +34,16 @@ function calculatePow(a,fnTocall){
      return fnTocall(a);
 }
 console.log(calculatePow(4, square));
-//setTimeout(()=>console.log(calculatePow(4, square)), 2000);
-//anonymous function:  no mae to function.
+setTimeout(()=>console.log(calculatePow(4, square)), 2000);
+//anonymous function:  no name to function.
 
-console.log(calculatePow(3, function (val){return val*val})); //here we just defined functioned without name, coz anysways if we define name here we won't be able to call anywhere
+console.log(calculatePow(3, function (val){return val*val})); 
+//here we just defined functioned without name, coz anysways if we define name here we won't be able to call anywhere
+
+//async functions:
+
+const fs= require("fs");   //filesystem module
+fs.readFile("Numbers.js", "utf-8", function(err, data){  //reads the entire content in the file.
+     console.log(data);
+     console.log(err);
+});
