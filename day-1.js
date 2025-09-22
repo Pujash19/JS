@@ -16,3 +16,7 @@ let timer=setInterval(()=>{
 }
 check2();
 
+console.log("Day-1 learnings");
+console.log("Day-1 learnings");
+
+
