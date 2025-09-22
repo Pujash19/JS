@@ -46,3 +46,18 @@ console.log(p);
 p.then(()=>showOutput(2,3));
 console.log(p);
 
+
+function getBadge(){
+  return new Promise((resolve, reject)=>{
+    setTimeout(()=>{resolve("Badge Earned")},1000);
+  });
+}
+
+getBadge().then((value)=>{console.log(value)});
+
+async function setBadge(){
+let s= await getBadge();
+console.log(s);
+}
+setBadge();
+
