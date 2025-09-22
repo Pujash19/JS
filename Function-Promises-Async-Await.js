@@ -61,3 +61,7 @@ console.log(s);
 }
 setBadge();
 
+setBadge();
+
+console.log("Kumari Puja Sharma");
+
