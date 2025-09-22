@@ -61,3 +61,5 @@ console.log(s);
 }
 setBadge();
 
+setBadge();
+
