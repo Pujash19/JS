@@ -1,5 +1,5 @@
-Please refer files to checkout all the basics of Javascript methods.
-Topics covered,
+#Please refer files to checkout all the basics of Javascript methods.
+#Topics covered,
 1. Classes
 2. Objects
 3. Methods and Functions
